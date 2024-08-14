@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand navbar-initial text-white" href="#">
+            K.
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-light" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link text-white active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-white" href="#aboutMe">About me</a>
+                <a class="nav-link text-white" href="#aboutSkills">Skills</a>
+                <a class="nav-link text-white" href="#myProjects">Projects</a>
+                <a class="nav-link text-white" href="#servicesSection">Services</a>
+                <a class="nav-link text-white" href="#footerSection">Footer</a>
+            </div>
+        </div>
+    </nav>
+    <div class="banner-section-background d-flex flex-column justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 order-sm-1 order-md-2">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-banner-img.png" class="profolio-website-image pt-3" />
+                </div>
+                <div class="col-12 col-md-6 order-sm-2 order-md-1">
+                    <h1 class="profile-heading font-family">Hey, My name is <span style="color: #4b6cc1;">Kiran Sai</span></h1>
+                    <p class="profile-desctiption font-family">I am a Frontend Devoloper</p>
+                    <button class="profile-button bg-primary font-family">Contact Me</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-website-about-me-section-background pb-5 pt-5" id="aboutMe">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 order-md-2">
+                    <p class="portfolio-website-about-me-facts">Facts</p>
+                    <h1 class="about-me-heading">About me</h1>
+                    <div class="d-sm-inline d-md-none">
+                        <img src="kiran.jpg" class="portfolio-about-me-img pt-3 pb-3" />
+                    </div>
+                    <p class="portfolio-description">
+                        My name is Jenny Wilson, and I am currently looking for a internship or job in Frontend Development.
+                        I am currently pursuing B.Tech in Computer Science and Engineering at RGMCET,Nandyal.
+                        People find me to be an upbeat, self-motivated team player with excellent communication skills.
+                        I am a dedicated person with a family of four. I enjoy reading, and Gardening.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 d-none d-md-inline order-md-1">
+                    <img src="kiran.jpg" class="portfolio-about-me-img" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-about-me-skils-background pt-5 pb-5" id="aboutSkills">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="portfolio-website-about-me-facts">Skills :</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="image-card text-center shadow">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="skills-image" />
+                        <h3 class="card-heading">HTML</h3>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="image-card text-center shadow">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="skills-image" />
+                        <h3 class="card-heading">CSS</h3>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="image-card text-center shadow">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png" class="skills-image" />
+                        <h3 class="card-heading">Bootstrap</h3>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="image-card text-center shadow">
+                        <img src="Python.jpeg" class="skills-image" />
+                        <h3 class="card-heading">Python</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-website-projects-section-background pt-5 pb-5" id="myProjects">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="portfolio-heading">
+                        Portfolio
+                    </h1>
+                </div>
+                <div class="col-12">
+                    <h1 class="projects-heading">Projects I have done</h1>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="project-card-container">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-1-img.png" class="project-image" />
+                        <div class="project-card-description-container">
+                            <p class="web-design">Web design</p>
+                            <h1 class="image-heading">Royal Grand Hotel</h1>
+                            <p class="image-description">Royal Grand Hotel is a Simple Static Website.
+                                We can use this layout for building the other websites...</p>
+                            <a href="" class="anchor-link">Read More
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="project-card-container">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-2-img.png" class="project-image" />
+                        <div class="project-card-description-container">
+                            <p class="web-design">Web design</p>
+                            <h1 class="image-heading">Happy Meals</h1>
+                            <p class="image-description">Happy Meals is the best-in-class food ordering page today.
+                                with interactive UI/UX and simple call to actions...</p>
+                            <a href="" class="anchor-link">Read More
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-website-services-section pb-5 pt-5" id="servicesSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="services-heading">Services</h1>
+                </div>
+                <div class="col-12">
+                    <h1 class="main-heading">What I Do</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 pt-2 mt-2 shadow">
+                    <div class="services-section-card-container">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-design-img.png" class="service-image" />
+                        <h1 class="service-name">Static Websites</h1>
+                        <p class="service-description">A Static Website contains Web pages with fixed content. Each page is devoloped using HTML and CSS and displays the same information to every visitor.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-3 shadow">
+                    <div class="services-section-card-container">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-development-img.png" class="service-image" />
+                        <h1 class="service-name">Responsive Web design</h1>
+                        <p class="service-description">Responsive Web design is the approach that suggests that design and development should respond to the user's behaviour and environment based on screen size, platform and orientation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-website-footer-section pt-5" id="footerSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3 pb-2 mb-4">
+                    <div class="d-flex flex-row justify-content-start">
+                        <img src="kiran.jpg" class="footer-section-image mr-3" />
+                        <div>
+                            <h1 class="candidate-details pb-2">Jenny</h1>
+                            <p class="details-description">Frontend Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <h1 class="candidate-details pb-2">Phone No.</h1>
+                    <div class="d-flex flex-row">
+                        <i class="fa-solid fa-phone icon-color"></i>
+                        <p class="details-description">+91 9392332569</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <h1 class="candidate-details pb-2">E-mail</h1>
+                    <div class="d-flex flex-row">
+                        <i class="fa-solid fa-envelope icon-color"></i>
+                        <p class="details-description">kanumukkalakiran@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <h1 class="candidate-details pb-2">Address</h1>
+                    <div class="d-flex flex-row">
+                        <i class="fa-solid fa-map-location-dot icon-color"></i>
+                        <p class="details-description">1-96,Medapuram(V),Chennekothapalli(M),Satya Sai(Dist),PIN-515651</p>
+                    </div>
+                </div>
+                <div class="col-12 copy-right d-flex flex-row justify-content-center pt-2">
+                    <i class="fa-regular fa-copyright copy-right-icon-color pr-2"></i>
+                    <p class="copy-right-description">2024 by Kiran Sai. Created with Bootstrap.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

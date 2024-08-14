@@ -1,0 +1,283 @@
+.navbar-initial {
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4b6cc1;
+}
+
+.navbar-background {
+    background-color: #9aa5b1;
+    background-size: cover;
+    height: 100vh;
+}
+
+.color-white {
+    color: white;
+}
+
+.font-family {
+    font-family: "Roboto";
+}
+
+.profile-heading {
+    color: white;
+}
+
+.banner-section-background {
+    background-color: #191a1d;
+    background-size: cover;
+    height: 130vh;
+}
+
+.profolio-website-image {
+
+    width: 280px;
+    padding-bottom: 16px;
+}
+
+.profile-desctiption {
+    color: #9aa5b1;
+    font-size: 22px;
+}
+
+.profile-button {
+    border-width: 0;
+    color: white;
+    height: 40px;
+    width: 130px;
+    border-radius: 6px;
+}
+.portfolio-website-about-me-section-background {
+    background-color: #323f4b;
+    background-size: cover;
+    font-family: "Roboto";
+}
+
+.portfolio-website-about-me-facts {
+    color: #cced00;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about-me-heading {
+    color: white;
+}
+
+.portfolio-about-me-img {
+    height: 300px;
+}
+
+.portfolio-description {
+    color: #9aa5b1;
+    font-size: 16px;
+}
+
+.portfolio-about-me-skils-background {
+    background-color: #1f2933;
+    background-size: cover;
+    font-family: "Roboto";
+}
+
+.image-card {
+    background-color: #323f4b;
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 14px;
+
+}
+
+.skills-image {
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+
+
+}
+
+.card-heading {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+}
+.portfolio-website-projects-section-background {
+    background-color: #3e4c59;
+    background-size: cover;
+    font-family: "Roboto";
+}
+
+.portfolio-heading {
+    color: #cced00;
+    font-size: 18px;
+}
+
+.projects-heading {
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.project-card-container {
+    width: 310px;
+    margin-bottom: 12px;
+}
+
+.project-image {
+    height: 170px;
+    width: 310px;
+
+}
+
+.project-card-description-container {
+    background-color: #323f4b;
+    padding: 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.web-design {
+    color: #9aa5b1;
+    font-size: 12px;
+}
+
+.image-heading {
+    color: white;
+    font-size: 22px;
+}
+
+.image-description {
+    color: #9aa5b1;
+    font-size: 19px;
+}
+
+.anchor-link {
+    color: #cced00;
+    font-size: 15px;
+    font-weight: bold;
+}
+.portfolio-website-services-section {
+    background-color: #52606d;
+    background-size: cover;
+    font-family: "Roboto";
+
+}
+
+.services-heading {
+    color: #cced00;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-heading {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.services-section-card-container {
+    background-color: #323f4b;
+    background-size: cover;
+    font-family: "Roboto";
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+}
+
+.service-image {
+    height: 50px;
+    width: 50px;
+
+}
+
+.service-name {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.service-description {
+    color: #9aa5b1;
+    font-size: 18px;
+}
+.portfolio-website-work-done-section {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+    background-size: cover;
+    font-family: "Roboto";
+}
+
+.icons-card-container {
+    color: white;
+    text-align: center;
+}
+
+hr {
+    background-color: white;
+    width: 50px;
+
+}
+
+.icon-size {
+    height: 50px;
+    width: 40px;
+    font-weight: bold;
+}
+
+.number {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.description {
+    font-size: 12px;
+}
+.portfolio-website-footer-section {
+    background-color: #0d2436;
+    background-size: cover;
+
+}
+
+.footer-section-image {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.candidate-details {
+    color: #cced00;
+    font-size: 20px;
+
+}
+
+.details-description {
+    color: #9aa5b1;
+    font-size: 13px;
+}
+
+.icon-color {
+    color: #5a7184;
+    padding-right: 10px;
+}
+
+.copy-right {
+    background-color: #001c32;
+
+
+}
+
+.copy-right-description {
+    color: #9aa5b1;
+}
+
+.copy-right-icon-color {
+    color: #cced00;
+    font-size: 18px;
+    margin-top: 5px;
+}
